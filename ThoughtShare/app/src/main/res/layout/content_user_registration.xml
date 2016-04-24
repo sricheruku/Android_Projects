@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="techemanation.com.thoughtshare.UserRegistration"
+    tools:showIn="@layout/activity_user_registration">
+
+        <LinearLayout android:id="@+id/lnrRegister" android:layout_width="match_parent"
+            android:background="@color/lightBG"
+            android:padding="10dp"
+            android:layout_height="wrap_content" android:orientation="vertical">
+
+            <android.support.design.widget.TextInputLayout android:layout_width="match_parent"
+                android:background="@drawable/edit_text_style"
+                android:layout_marginTop="20dp"
+                android:layout_height="wrap_content">
+
+                <AutoCompleteTextView android:id="@+id/actName" android:layout_width="match_parent"
+                    android:gravity="center"
+                    android:imeOptions="actionNext"
+                    android:background="@android:color/transparent"
+                    android:layout_height="@dimen/edit_text_height" android:hint="Name"
+                    android:inputType="text" android:maxLines="1"
+                    android:maxLength="30"
+                    android:singleLine="true" />
+
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout android:layout_width="match_parent"
+                android:layout_marginTop="@dimen/margin_between_edittext"
+                android:background="@drawable/edit_text_style"
+                android:layout_height="wrap_content">
+
+                <AutoCompleteTextView android:id="@+id/actCity" android:layout_width="match_parent"
+                    android:layout_height="@dimen/edit_text_height"
+                    android:hint="City"
+                    android:gravity="center"
+                    android:imeOptions="actionDone"
+                    android:background="@android:color/transparent"
+                    android:inputType="text" android:maxLines="1"
+                    android:maxLength="30"
+                    android:singleLine="true" />
+            </android.support.design.widget.TextInputLayout>
+
+            <Button android:id="@+id/btnRegister"
+                android:layout_marginTop="20dp"
+                style="@style/Widget.AppCompat.Button.Colored"
+                android:textAllCaps="false"
+                android:textSize="@dimen/button_text_size"
+                android:layout_marginLeft="@dimen/button_margin_right_left"
+                android:layout_marginRight="@dimen/button_margin_right_left"
+                android:layout_width="match_parent" android:layout_height="wrap_content"
+                android:text="Register"
+                />
+
+        </LinearLayout>
+
+</RelativeLayout>

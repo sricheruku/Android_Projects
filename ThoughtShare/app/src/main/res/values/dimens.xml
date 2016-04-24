@@ -1,0 +1,10 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+
+    <dimen name="height_edittext_chat">50dp</dimen>
+
+    <dimen name="edit_text_height">30dp</dimen>
+    <dimen name="margin_between_edittext">12dp</dimen>
+    <dimen name="button_text_size">16sp</dimen>
+    <dimen name="button_margin_right_left">50dp</dimen>
+</resources>

@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">ThoughtShare</string>
+    <string name="title_activity_user_registration">UserRegistration</string>
+    <string name="TimeOutMessage">There was some problem connecting to the Internet. Please try again.</string>
+    <string name="title_activity_chat_users">ChatUsers</string>
+    <string name="user_pref">user_pref</string>
+</resources>
