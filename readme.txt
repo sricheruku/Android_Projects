@@ -4,6 +4,16 @@ A real-time chat messaging Android application that lets users connect and share
 
 ---
 
+## 📱 Screenshots
+
+> _Add your app screenshots here_
+
+| Home | Chat | Profile |
+|------|------|---------|
+| ![Home](screenshots/home.png) | ![Chat](screenshots/chat.png) | ![Profile](screenshots/profile.png) |
+
+---
+
 ## ✨ Features
 
 - 🔐 **User Authentication** — Secure sign up and login
